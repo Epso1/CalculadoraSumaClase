@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
 
     public int calculate(String input) {
         System.out.println("El valor en pantalla es: " + input);
-        int result = -1;
+        int result;
         if (input.contains("++") || input.contains("--")) {
             result = -1;
         } else if (!input.contains("+") && !input.contains("-")) {
